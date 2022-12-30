@@ -1,0 +1,36 @@
+{
+  "name": "next-apollo-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "lint:fix": "next lint --fix && prettier -w src"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.3",
+    "@apollo/server": "^4.3.0",
+    "@types/apollo-upload-client": "^17.0.2",
+    "@types/formidable": "^2.0.5",
+    "apollo-upload-client": "^17.0.0",
+    "formidable": "^2.1.1",
+    "graphql": "^16.6.0",
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "18.0.26",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.1.1",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.8.1",
+    "typescript": "4.9.4"
+  },
+  "author": "SoraKumo <info@croud.jp>",
+  "repository": "https://github.com/SoraKumo001/next-apollo-ssr"
+}
