@@ -23,6 +23,10 @@ const Page = () => {
   const [upload, { data: file }] = useMutation(UPLOAD);
   return (
     <>
+      <a target="_blank" href="https://github.com/SoraKumo001/next-apollo-server" rel="noreferrer">
+        Source code
+      </a>
+      <hr />
       <button onClick={() => refetch()}>日付更新</button>{' '}
       {data?.date && new Date(data.date).toLocaleString('ja-jp', { timeZone: 'Asia/Tokyo' })}
       <div
