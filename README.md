@@ -1,6 +1,6 @@
 # next-apollo-server
 
-Next.js で`@apollo/server`を使ってファイルをアップロードするサンプル
+Sample of uploading files using `@apollo/server` and `@apollo/client` in Next.js.
 
-- デモ
+- demo
   <https://next-apollo-server-lilac.vercel.app/>
